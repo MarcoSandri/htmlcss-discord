@@ -84,6 +84,15 @@ h2 {
     padding-top: 3em;
 }
 
+h3 {
+    margin:auto;
+    color: #23272A;
+    font-size: 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+
 p {
     font-size: 1.5em;
     padding-top: 2em;
@@ -183,4 +192,28 @@ main section.content:nth-child(even) {
 .txt {
     text-align: left;
     max-width: 40ch;
+}
+
+
+section.content:last-of-type{
+    text-align:center;
+}
+
+section.content:last-of-type .banner{
+    width: 100%;
+}
+
+.star-box {
+    position:relative;
+    margin:auto;
+}
+
+h3 {
+    position:relative;
+    z-index: 1;
+}
+
+.stars {
+    position: relative;
+    top:80px;
 }
