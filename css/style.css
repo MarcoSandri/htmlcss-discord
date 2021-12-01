@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Classi generali utili */
+
 body {
     font-family: Helvetica, sans-serif;
 }
@@ -12,11 +14,17 @@ ul {
     list-style: none;
 }
 
+.wrapper {
+    width:80%;
+    margin:auto;
+}
+
 .btn {
+    display: inline-block;
     border-radius: 50vh;
-    padding: 0.8em;
+    padding: 0.8em 1em;
     background-color:white;
-    color:black;
+    color:#23272A;
 }
 
 .btn:hover {
@@ -30,12 +38,12 @@ ul {
 }
 
 .btn.btn--blk {
-    background-color: black;
+    background-color: #23272A;
     color:white;
 }
 
 .btn.btn--blu {
-    background-color:cornflowerblue;
+    background-color:#8EA1E1;
     color:white;
 }
 
@@ -44,9 +52,81 @@ a {
 }
 
 h1 {
-    color: #fff;
+    margin:auto;
+    font-size: 4em;
+    padding-top: 2em;
 }
 
 h2 {
+    margin:auto;
     color: #23272A;
+    padding-top: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    max-width:75ch;
+    margin:auto;
+}
+
+/* Stilizzazione elementi di header */
+
+
+/* Stilizzazione nav */
+
+
+header{
+    background-color: #255EE9;
+    text-align:center;
+    color: #fff;
+}
+
+nav {
+    position:relative;
+    padding-top: 2em;
+    padding-bottom:2em;
+}
+
+nav>* {
+    position:absolute;
+}
+
+nav img{
+    transform: translate(0, -50%);
+    top:50%;
+    left:0;
+}
+
+nav ul{
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    margin-inline:0 2em;
+    color:white;
+    font-size:1.2em;
+
+}
+
+nav a.btn{
+    top:50%;
+    transform: translate(0, -50%);
+    right:0;
+}
+
+/* stilizzazione jumbotron */
+
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position:center;
+    min-height: 800px;
 }
