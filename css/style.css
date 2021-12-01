@@ -173,7 +173,7 @@ main section.content:nth-child(even) {
 }
 
 .col-txt {
-    float:right;
+    float:left;
     display:inline-block;
     width: 40%;
     text-align:center;
