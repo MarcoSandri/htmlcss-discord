@@ -16,6 +16,9 @@ body {
     display:table;
 }
 
+/* Ho dato istruzioni generali per le liste,
+cambiandole poi nello specifico per le necessità particolalri */
+
 ul {
     list-style: none;
 }
@@ -24,10 +27,14 @@ ul li a:hover{
     text-decoration: underline;
 }
 
+/* Centratura orizzontale */
+
 .wrapper {
     width:80%;
     margin:auto;
 }
+
+/* Classi dei bottoni riusabili in qualsiasi punto della pagina */
 
 .btn {
     display: inline-block;
@@ -66,6 +73,9 @@ ul li a:hover{
 .btn.btn--blu:hover {
     background-color: #8EA1E1;
 }
+
+/* Stili generali per gli elementi di testo,
+cambiandole poi per i particolari */
 
 a {
     text-decoration: none;
@@ -164,6 +174,10 @@ nav a.btn{
 
 /* Stilizzazione contenuti */
 
+
+/* Ho dato una classe alle sezioni con lo sfondo diverso
+perchè il selettore ::nth-children(even) non funzionava */
+
 .content--alt {
     background-color: #F6F6F6;
 }
@@ -202,10 +216,6 @@ section.content:last-of-type .banner{
     width: 100%;
 }
 
-.star-box {
-    position:relative;
-    margin:auto;
-}
 
 h3 {
     position:relative;
@@ -217,6 +227,7 @@ h3 {
     top:80px;
 }
 
+/* Stilizzazione elementi footer */
 
 footer {
     min-height: 400px;
@@ -224,6 +235,8 @@ footer {
     color:white;
     text-align: center;
 }
+
+/* Prima parte del footer con le liste */
 
 .footer-main {
     border-bottom: 1px solid #7289DA;
@@ -260,8 +273,7 @@ footer {
     width: calc(75% / 4);
 }
 
-
-
+/* Seconda parte del footer con logo e bottone */
 
 .footer-end {
     padding-top: 2em;
