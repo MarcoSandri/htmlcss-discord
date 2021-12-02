@@ -294,11 +294,10 @@ footer {
 .wave {
     width:100%;
     fill: #F6F6F6;
-    margin-bottom:-5px;
+    display: block;
 }
 
-/* Margin bottom negativo perchè l'immagine non aderiva perfettamente alla sezione */
-
 .wave--alt {
+    display: block;
     transform: scale(-1);
 }
